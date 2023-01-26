@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anubis/viplab1/include/name.hpp
+iostream
+-
+string
+-
+
+/home/anubis/viplab1/src/hello.cpp
+iostream
+-
+/home/anubis/viplab1/include/name.hpp
+-
+
+/home/anubis/viplab1/src/name.cpp
+iostream
+-
+fstream
+-
+string
+-
+/home/anubis/viplab1/include/name.hpp
+-
+
