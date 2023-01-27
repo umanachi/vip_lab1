@@ -13,3 +13,6 @@ What some differences between cmake and ninja?
 Why is it important to run cmake in its own directory?
 
   -> Running cmake generates a lot of "random" files that I don't quite understand yet, so running it in its own directory prevents polluting the source code folders.
+  
+
+LAB NOTE: I will be unavailable next week, and will complete Labs 2 and 3 during Week 3 (starting Sunday, Feb 5).
